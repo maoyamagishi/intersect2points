@@ -94,11 +94,6 @@ class PlaneBuildCreatedHandler(adsk.core.CommandCreatedEventHandler):
             if ui:
                 ui.messageBox('Failed:\n{}'.format(traceback.format_exc()))
 
-############################################################################################################################
-
-
-
-############################################################################################################################
 # Main function
 def run(context):
     try:
