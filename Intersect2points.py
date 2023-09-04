@@ -87,7 +87,8 @@ class PlaneBuildCreatedHandler(adsk.core.CommandCreatedEventHandler):
 
 
             i1 = inputs.addSelectionInput('Line', 'Line', 'Please select some lines')
-            i1.addSelectionFilter(adsk.core.SelectionCommandInput.SketchCurves)          
+            i1.addSelectionFilter(adsk.core.SelectionCommandInput.SketchCurves)     
+            i1.addSelectionFilter(adsk.core.SelectionCommandInput.SketchLines)     
             i1.setSelectionLimits(0,0)
 
         except:

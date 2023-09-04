@@ -20,7 +20,7 @@ class main:
             linelist = []
             for ii in range(len(inputlist)):
                 objlist.append(inputlist[ii].entity)
-                if objlist[ii].objectType == adsk.fusion.SketchFittedSpline.classType():
+                if objlist[ii].objectType == adsk.fusion.SketchFittedSpline.classType() or adsk.fusion.SketchLine.classType():
                     linelist.append(objlist[ii])
                 else:
                     planelist.append(objlist[ii])
@@ -34,6 +34,7 @@ class main:
                 for jj in range(len(linelist) ):
                     entities.append(linelist[jj])
                 point = sketch.intersectWithSketchPlane(entities)
+                ui.messageBox(format(len(linelist)))
 
                 plane1.isLightBulbOn = True
 
