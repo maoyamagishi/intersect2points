@@ -20,12 +20,11 @@ class main:
             linelist = []
             for ii in range(len(inputlist)):  #"or" didn't work...
                 objlist.append(inputlist[ii].entity)
-                if objlist[ii].objectType == adsk.fusion.SketchFittedSpline.classType() :
-                    linelist.append(objlist[ii])
-                elif objlist[ii].objectType == adsk.fusion.SketchLine.classType() :
-                    linelist.append(objlist[ii])
-                else:
+                if objlist[ii].objectType == adsk.fusion.ConstructionPlane.classType() :
                     planelist.append(objlist[ii])
+
+                else:
+                    linelist.append(objlist[ii])
 
             for ii in range(len(planelist) ):  
                 sketches = rootComp.sketches    

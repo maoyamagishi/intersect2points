@@ -4,9 +4,9 @@
 	],
 	"python.analysis.extraPaths":	["C:/Users/maoya/AppData/Roaming/Autodesk/Autodesk Fusion 360/API/Python/defs"],
 	"fusion-360-helper.enabled":	true,
-	"fusion-360-helper.python.pythonPath":	"C:\\Users\\maoya\\AppData\\Local\\Autodesk\\webdeploy\\production\\e3fd45ba03e541f75bf8195292579861b6ebb663\\Python\\python.exe",
+	"fusion-360-helper.python.pythonPath":	"C:\\Users\\maoya\\AppData\\Local\\Autodesk\\webdeploy\\production\\fd081b4c15f2fc37998034adb20de16163fc298f\\Python\\python.exe",
 	"fusion-360-helper.python.extraLibs":	[
 		"C:\\Users\\maoya\\AppData\\Roaming\\Autodesk\\Autodesk Fusion 360\\API\\Python\\defs"
 	],
-	"python.defaultInterpreterPath":	"C:/Users/maoya/AppData/Local/Autodesk/webdeploy/production/e3fd45ba03e541f75bf8195292579861b6ebb663/Python/python.exe"
+	"python.defaultInterpreterPath":	"C:/Users/maoya/AppData/Local/Autodesk/webdeploy/production/7a444c5b9266cf0505b3a85c0def24a04f033e63/Python/python.exe"
 }
